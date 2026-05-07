@@ -1,3 +1,12 @@
 .logo{
     width: 50px;
 }
+
+/* adjust logo image padding left to match  menu padding */
+.navbar {
+    padding: 0; /* remove navbar default padding */
+}
+
+.navbar-brand {
+    padding: 12px; /* match the 12px nav-link padding */
+}

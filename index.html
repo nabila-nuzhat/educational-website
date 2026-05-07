@@ -7,9 +7,9 @@
     <title>Educational Website</title>
 
     <!-- icon -->
-<!-- default type as vscode: type="image/x-icon" =================== -->
+    <!-- default type as vscode: type="image/x-icon" =================== -->
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
-<!-- used in this website icon type: "image/png" -->
+    <!-- used in this website icon type: "image/png" -->
     <link rel="shortcut icon" href="./image/logo.png" type="image/png">
     <!-- bootstrap CSS -->
     <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -19,14 +19,45 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
+            <!-- logo link homepage -->
             <a class="navbar-brand" href="index.html">
-                <!-- logo source: pixabay -->
+                <!-- logo: pixabay -->
                 <img src="./image/logo.png" alt="logo" class="img-fluid object-fit-contain logo ">
                 <!-- Navbar -->
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <!-- menu -->
+            <!-- SECTION d-flex TEST -------------- -->
+            <section class="d-flex">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/faq.html">FAQ</a>
+                        </li>
+
+                    </ul>
+                    <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+                </div>
+            </section>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,13 +78,61 @@
                     </li>
 
                 </ul>
-                <!-- <form class="d-flex" role="search">
+              <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                     <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
-            </div>
+                </form> 
+            </div> -->
+
+
         </div>
     </nav>
+
+<!--------------------- NAVBAR FLEX_TEST ----------------------------------------------- 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-->
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid d-flex justify-content-between">
+   
+             <div class="logo-section">
+                 <a class="navbar-brand" href="index.html">
+       
+                    <img src="./image/logo.png" alt="logo" class=" img-fluid object-fit-contain logo ">
+            
+                </a>
+             </div>
+               
+
+            <div class="menu-section">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/faq.html">FAQ</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </nav> -->
+    
+    <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    ----------------------- NAVBAR FLEX_TEST ----------------------------------------------- -->
 
     <!-- footer -->
     <div class="container">
